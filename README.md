@@ -1,0 +1,1 @@
+This example demonstrates a common, yet subtle, error in Ruby: directly manipulating instance variables.  While seemingly functional, directly using `instance_variable_set` or `instance_variable_get` often circumvents the intended logic and encapsulation of methods, making debugging and future modifications much more difficult.
